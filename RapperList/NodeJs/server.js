@@ -17,7 +17,6 @@ mongoose.connect('mongodb://gadsden:250433@localhost/rapperlist?authSource=admin
 //Modulo require-dir do npm que é usado para faser o require de um diretorio inteiro
 requireDir('./src/models')
 
-
 //Primeira rota
 //toda vez que receber uma rota de api mande para routes
 //Leva para o routes exportado
